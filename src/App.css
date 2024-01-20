@@ -151,6 +151,9 @@ p {
   cursor: pointer;
   color: white;
 }
+.btn__text:hover .arrow {
+  background-image: url("/public/svg/Arrow_Right_1.svg");
+}
 
 .leftside-bottom__logo {
   margin-left: 40px;
@@ -160,7 +163,13 @@ p {
   height: 383px;
   border-radius: 20px;
 }
-
-.svg {
-  fill: white;
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.arrow {
+  z-index: 1;
+  background-image: url("/public/svg/Arrow_Right.svg");
 }
